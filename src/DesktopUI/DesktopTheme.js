@@ -1,11 +1,10 @@
 
 export const DesktopTheme = {
     text: '#565252',
-    windowBg: '#F2F2F2',
-    applicationBarBg: '#D8D8D8',
-    applicationBarActionBg: '#C4C4C4',
-    taskbarBg: '#C4C4C4',
-    taskbarActionBg: '#D8D8D8',
+    windowBg: '#F2f2f2',
+    applicationBarBg: '#cccccc',
+    taskbarBg: '#282828',
+    taskbarActionBg: '#f8f8f8',
     accent: '#0F9AE8'
 };
 

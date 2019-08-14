@@ -8,19 +8,16 @@ const WindowActions = ({ classes, onSizeChange, onMinimize, onClose, desktopCont
     <div className={classes.windowActions}>
         <button
             title="Maximize Window"
-            style={{background: desktopContext.state.theme.applicationBarActionBg}}
             onClick={onSizeChange}>
             <MaterialIcon icon="tab_unselected" size={12} color={desktopContext.state.theme.text} />
         </button>
         <button
             title="Minimize Window"
-            style={{background: desktopContext.state.theme.applicationBarActionBg}}
             onClick={onMinimize}>
             <MaterialIcon icon="remove" size={14} color={desktopContext.state.theme.text} />
         </button>
         <button
             title="Close Window"
-            style={{background: desktopContext.state.theme.applicationBarActionBg}}
             onClick={onClose}>
             <MaterialIcon icon="clear" size={14} color={desktopContext.state.theme.text} />
         </button>

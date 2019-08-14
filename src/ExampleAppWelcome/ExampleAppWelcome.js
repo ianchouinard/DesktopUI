@@ -5,6 +5,8 @@ const styles = {
     welcome: {
         padding: '20px',
         textAlign: 'center',
+        maxWidth: '800px',
+        margin: '0 auto',
         '& h3, & ul': {
             textAlign: 'left'
         }
@@ -25,14 +27,6 @@ class ExampleWelcomeApp extends Component {
                     applications could be treated as separate projects or plugins. A DesktopContext is provided to manage open applications and desktop state. 
                     Could be useful as an intranet ui, or as an interface for controlling a remote desktop.
                 </p>
-                <hr />
-                <h3>Todo</h3>
-                <ul>
-                    <li>Finish the context menu component</li>
-                    <li>Documentation for components</li>
-                    <li>Responsive UI</li>
-                    <li>Starter applications in a separate repo. (Ex: settings, file manager, etc...)</li>
-                </ul>
             </div>
         );
     };

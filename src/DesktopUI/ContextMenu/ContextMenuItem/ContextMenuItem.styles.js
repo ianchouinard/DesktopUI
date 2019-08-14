@@ -1,7 +1,7 @@
 const styles = {
     contextMenuOption: {
         width: '125px',
-        padding: '5px',
+        padding: '8px 5px',
         fontSize: '12px',
         cursor: 'pointer',
         '& > ul': {
